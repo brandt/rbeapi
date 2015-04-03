@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(/^(test|spec|features)\//)
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'net_http_unix'
-  spec.add_dependency 'inifile'
+  spec.add_dependency 'net_http_unix', '~> 0.2'
+  spec.add_dependency 'inifile', '~> 3.0'
 
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'yard'
